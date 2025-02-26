@@ -14,10 +14,10 @@ function Pupils (props){
    
   );
 }
-Pupils.propTypes = {
-  name:PropTypes.string,
-  age:PropTypes.number,
-  school:PropTypes.string,
-  course:propTypes.string,
-}
+// Pupils.propTypes = {
+//   name:PropTypes.string,
+//   age:PropTypes.number,
+//   school:PropTypes.string,
+//   course:propTypes.string,
+// }
 export default Pupils
