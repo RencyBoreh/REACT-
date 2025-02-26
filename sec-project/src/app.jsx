@@ -5,12 +5,17 @@ import Food from './food.jsx'
 import Card from './card.jsx'
 import Pupils from './pupils.jsx'
 import Greet from './greeting.jsx'
+import List from './list.jsx'
+import Button from './Button.jsx'
+
 
 
 export function App() {
   return (
     <>
       <Header />
+      <List />
+      <Button />
       <Greet name='Rency' isStudent={true} />
       <Student name=' Rency Boreh' age={22} isStudent={false} />
       <hr />
