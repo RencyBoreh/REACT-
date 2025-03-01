@@ -8,7 +8,7 @@ import Greet from './greeting.jsx'
 import List from './list.jsx'
 import Button from './Button.jsx'
 import States from './states.jsx';
-
+import Counter from './counter.jsx'
 
 export function App() {
   return (
@@ -20,6 +20,7 @@ export function App() {
       <Greet name='Rency' isStudent={true} />
       <Student name=' Rency Boreh' age={22} isStudent={false} />
       <hr />
+      <Counter/>
       {/* <Student name=' Ressly Boreh' age={18} isStudent={true} />
       <hr />
       <Student name='Rency' age={20} isStudent={true} />
