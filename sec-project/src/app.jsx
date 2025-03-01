@@ -9,7 +9,7 @@ import List from './list.jsx'
 import Button from './Button.jsx'
 import States from './states.jsx';
 import Counter from './counter.jsx'
-
+import OnChange from './onchange.jsx'
 export function App() {
   return (
     <>
@@ -17,6 +17,7 @@ export function App() {
       <States/>
       {/* <List /> */}
       {/* <Button /> */}
+      <OnChange/>
       <Greet name='Rency' isStudent={true} />
       <Student name=' Rency Boreh' age={22} isStudent={false} />
       <hr />
