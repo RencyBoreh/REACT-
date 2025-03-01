@@ -11,13 +11,14 @@ import States from './states.jsx';
 import Counter from './counter.jsx'
 import OnChange from './onchange.jsx'
 import ObjectUpdater from './object.jsx'
-
+import ArrayManipulation from './arrays.jsx'
 
 export function App() {
   return (
     <>
       <Header />
       <ObjectUpdater/>
+      <ArrayManipulation/>
       <States/>
       {/* <List /> */}
       {/* <Button /> */}
