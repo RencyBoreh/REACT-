@@ -14,6 +14,7 @@ import ObjectUpdater from './object.jsx'
 import ArrayManipulation from './arrays.jsx'
 import HandleCar from './array.jsx'
 import ToDoList from './To-Do-List-App.jsx'
+import Useeffect from './useeffect.jsx'
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <Header />
       <hr />
       <ToDoList/>
+      <Useeffect/>
       <HandleCar/>
       <ObjectUpdater/>
       <ArrayManipulation/>
