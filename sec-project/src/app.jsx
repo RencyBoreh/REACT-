@@ -13,11 +13,14 @@ import OnChange from './onchange.jsx'
 import ObjectUpdater from './object.jsx'
 import ArrayManipulation from './arrays.jsx'
 import HandleCar from './array.jsx'
+import ToDoList from './To-Do-List-App.jsx'
 
 export function App() {
   return (
     <>
       <Header />
+      <hr />
+      <ToDoList/>
       <HandleCar/>
       <ObjectUpdater/>
       <ArrayManipulation/>
