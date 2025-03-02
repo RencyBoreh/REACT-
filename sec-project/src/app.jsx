@@ -12,11 +12,13 @@ import Counter from './counter.jsx'
 import OnChange from './onchange.jsx'
 import ObjectUpdater from './object.jsx'
 import ArrayManipulation from './arrays.jsx'
+import HandleCar from './array.jsx'
 
 export function App() {
   return (
     <>
       <Header />
+      <HandleCar/>
       <ObjectUpdater/>
       <ArrayManipulation/>
       <States/>
@@ -26,6 +28,7 @@ export function App() {
       <Greet name='Rency' isStudent={true} />
       <Student name=' Rency Boreh' age={22} isStudent={false} />
       <hr />
+      
       <Counter/>
       {/* <Student name=' Ressly Boreh' age={18} isStudent={true} />
       <hr />
